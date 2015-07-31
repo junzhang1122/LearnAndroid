@@ -17,4 +17,13 @@
         android:layout_marginTop="34dp"
         android:text="SendMsg" />
 
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button1"
+        android:layout_below="@+id/button1"
+        android:text="复选框" 
+        android:onClick="mulitSelectButton"/>
+
 </RelativeLayout>
